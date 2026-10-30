@@ -17,3 +17,8 @@ donc la modification de style.css est toujours présente
 Commande : git revert HEAD
 Le commit etant deja partage on ne doit pas reecrire l'historique, revert cree un nouveau commit qui annule
 les changements 
+
+## Mission 11
+Commande : git cherry-pick 4e85b97
+Commit récupere : 4e85b97 "Correction du titre de l'accueil"
+Un merge aurait importé les 3 commits, dont les deux expérimentaux non voulus.
