@@ -21,4 +21,20 @@ les changements
 ## Mission 11
 Commande : git cherry-pick 4e85b97
 Commit récupere : 4e85b97 "Correction du titre de l'accueil"
-Un merge aurait importé les 3 commits, dont les deux expérimentaux non voulus.
+Un merge aurait importé les 3 commits, dont les deux expérimentaux non voulus
+
+## Mission 12
+Commandes : git tag -a v1.0.0 -m "Premiere version stable de NovaTech" puis git show v1.0.0
+
+1.0.0 = MAJEUR.MINEUR.CORRECTIF
+1er chiffre (majeur) : changements incompatibles avec la version précédente
+2eme chiffre (mineur) : nouvelle fonctionnalite compatible
+3eme chiffre (correctif) : correction de bug
+
+Correction de bug mineur : 1.0.1
+Nouvelle fonctionnalité compatible : 1.1.0
+Refonte majeure incompatible :: 2.0.0
+
+## Mission 13
+Fichier .gitignore contenant : debug.log, cache/, .env
+Verification avec git status : seul .gitignore apparaît comme nouveau fichier
