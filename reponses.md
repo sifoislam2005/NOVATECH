@@ -12,3 +12,8 @@ Commande : git reset --soft HEAD~1
 Elle deplace HEAD d'un commit en arriere sans toucher au repertoire de travail,
 donc la modification de style.css est toujours présente
 `git reset --hard HEAD~1` aurait supprime le commit et la modification du fichier
+
+## Mission 9
+Commande : git revert HEAD
+Le commit etant deja partage on ne doit pas reecrire l'historique, revert cree un nouveau commit qui annule
+les changements 
